@@ -2,7 +2,7 @@ const alumnos = [{
     nombre :"Maria",
     materias:[{
         nombre: "Ciencias",
-        calificacion: 9
+        calificacion: 5
     },{
         nombre:"matematicas",
         calificacion: 8
@@ -18,8 +18,8 @@ const alumnos = [{
     }]
 }]
 
-for (x=0;x<alumnos.length;x++){
-    for(y=0;y< alumnos[x].materias.length;y++){
+for (let x=0;x<alumnos.length;x++){
+    for( let y=0;y< alumnos[x].materias.length;y++){
 
         if(alumnos[x].materias[y].calificacion<6){
             console.log("El alumno: "+ alumnos[x].nombre + " reprobo " + alumnos[x].materias[y].nombre)

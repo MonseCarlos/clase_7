@@ -1,10 +1,13 @@
-let alumnos = [{
-    nombre :"alumeno1",
-    calificaciones : [10,5,8,6,5,8]
-}, {
-    nombre:"alumeno2",
-    calificaciones : [5,5,7,5,5,7]
-} ]
+let alumnos = [
+    {
+        nombre :"alumeno1",
+        calificaciones : [10,5,8,6,5,8]
+    }, 
+    {
+        nombre:"alumeno2",
+        calificaciones : [5,5,7,5,5,7]
+    } 
+]
 
 const alumeno = "nombre"
 const calif = "calificaciones"
